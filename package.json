@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "linter": " standard --verbose **/*.js",
+    "linter": " standard --verbose && node **/*.js",
     "test": "ava --verbose **/*.spec.js",
     "test-cov": "nyc npm run test"
   },
