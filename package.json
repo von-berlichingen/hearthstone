@@ -1,0 +1,37 @@
+{
+  "name": "hearthstone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "linter": " standard --verbose **/*.js",
+    "test": "ava --verbose **/*.spec.js",
+    "test-cov": "nyc npm run test"
+  },
+  "standard": {
+    "ignore": [
+      "node_modules",
+      "coverage"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/von-berlichingen/hearthstone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/von-berlichingen/hearthstone/issues"
+  },
+  "homepage": "https://github.com/von-berlichingen/hearthstone#readme",
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "nyc": "^11.1.0",
+    "sinon": "^3.2.0",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+  }
+}
