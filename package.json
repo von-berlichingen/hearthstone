@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "linter": " standard --verbose && node **/*.js",
+    "linter": " standard --verbose | snazzy **/*.js",
     "test": "ava --verbose **/*.spec.js",
     "test-cov": "nyc npm run test"
   },
@@ -28,10 +28,11 @@
   "homepage": "https://github.com/von-berlichingen/hearthstone#readme",
   "devDependencies": {
     "ava": "^0.21.0",
+    "babel-eslint": "^7.2.3",
     "nyc": "^11.1.0",
     "sinon": "^3.2.0",
+    "snazzy": "^7.0.0",
     "standard": "^10.0.3"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

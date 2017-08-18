@@ -1,3 +1,3 @@
-'use strict';
+'use strict'
 
-console.log('hello you');
+console.log('hello you')
